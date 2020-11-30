@@ -7,6 +7,8 @@ A back-end program, that can forward the user's name and e-mail address to Mailc
  - HTML5
  - CSS3
 
+#### My Newsletter Signup page is deployed on [Heroku](https://whispering-castle-54941.herokuapp.com/)
+
 #### How to run: (from terminal)
  Clone the repository: 
  > git clone https://github.com/ArpadGBondor/The_App_Brewery-Back-end_project_03-Newsletter_Signup.git
