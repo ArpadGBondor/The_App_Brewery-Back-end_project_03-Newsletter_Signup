@@ -28,7 +28,7 @@ app.get('/', function(req,res){
 });
 
 app.post('/', function(req,res){
-  log("Handling POST request");
+  // log("Handling POST request");
   // API key
   const apiKey = apiKeys.mailChimpApiKey();
   // List ID
@@ -42,9 +42,9 @@ app.post('/', function(req,res){
   const firstName = req.body.firstName;
   const lastName = req.body.lastName;
   const email = req.body.email;
-  log('First name: ',firstName);
-  log('Last name: ',lastName);
-  log('E-mail: ',email);
+  // log('First name: ',firstName);
+  // log('Last name: ',lastName);
+  // log('E-mail: ',email);
   var data = {
     members: [
       {
@@ -75,7 +75,6 @@ app.post('/', function(req,res){
     }
     response.on("data",function(data){
       log("Data: ",JSON.parse(data));
-      console.log("TEST HERE: " + JSON.parse(data));
     })
   });
   request.write(jsonData);
