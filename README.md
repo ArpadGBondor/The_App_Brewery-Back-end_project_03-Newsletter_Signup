@@ -25,7 +25,7 @@ A back-end program, that can forward the user's name and e-mail address to Mailc
  > Crate your own "api-keys.js" file based on "api-keys-example.js", and use your own API key.
  
  Run program: 
- > nodemon app.js
+ > node app.js
  
  Send get request from browser:
  > Open: http://localhost:3000
