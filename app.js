@@ -1,4 +1,5 @@
 /* eslint linebreak-style: ["error", "windows"]*/
+require('dotenv').config();
 const util = require('util');
 const consoleStamp = require('console-stamp');
 consoleStamp(console, {
@@ -21,8 +22,6 @@ app.use(bodyParser.urlencoded({
 
 const https = require('https');
 
-const apiKeys = require('./api-keys');
-
 app.get('/', function(req,res){
   res.sendFile(__dirname + "/signup.html");
 });
@@ -30,11 +29,11 @@ app.get('/', function(req,res){
 app.post('/', function(req,res){
   // log("Handling POST request");
   // API key
-  const apiKey = apiKeys.mailChimpApiKey();
+  const apiKey = process.env.MAILCHIMP_API_KEY;
   // List ID
-  const listID = apiKeys.mailChimpListID();
+  const listID = process.env.MAILCHIMP_LIST_ID;
   // Server No.
-  const serverNumber = apiKeys.mailChimpServerNumber();
+  const serverNumber = process.env.MAILCHIMP_SERVER_NUMBER;
   // log("API key: ",apiKey);
   // log("list ID: ", listID);
   // log("Server No.: : ", serverNumber);

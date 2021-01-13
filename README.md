@@ -10,22 +10,28 @@ A back-end program, that can forward the user's name and e-mail address to Mailc
 #### My Newsletter Signup page is deployed on [Heroku](https://gabriel-newsletter-signup.herokuapp.com/)
 
 #### How to run: (from terminal)
- Clone the repository: 
+ Clone the repository:
  > git clone https://github.com/ArpadGBondor/The_App_Brewery-Back-end_project_03-Newsletter_Signup.git
- 
+
  Enter directory:
  > cd The_App_Brewery-Back-end_project_03-Newsletter_Signup/
- 
- Download the missing dependencies from npm: 
+
+ Download the missing dependencies from npm:
  > npm install
- 
+
  Get your own API key (sry, I won't share mine... )
- > Register here: https://mailchimp.com/
- 
- > Crate your own "api-keys.js" file based on "api-keys-example.js", and use your own API key.
- 
- Run program: 
+ > Register on Mail Chimp for your own API key: https://mailchimp.com/
+ > mailChimpUserKey: https://admin.mailchimp.com/account/api/
+ > mailChimpListID: https://admin.mailchimp.com/lists/
+ > mailChimpServerNumber: the last digits of your API key, eg: "us3"
+
+ Create a file named '.env' and set this [enviroment variables](https://www.npmjs.com/package/dotenv):
+ > MAILCHIMP_API_KEY=
+ > MAILCHIMP_LIST_ID=
+ > MAILCHIMP_SERVER_NUMBER=
+
+ Run program:
  > node app.js
- 
+
  Send get request from browser:
  > Open: http://localhost:3000
