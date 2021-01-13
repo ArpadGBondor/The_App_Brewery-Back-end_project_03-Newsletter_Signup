@@ -25,7 +25,7 @@ A back-end program, that can forward the user's name and e-mail address to Mailc
  > mailChimpListID: https://admin.mailchimp.com/lists/  
  > mailChimpServerNumber: the last digits of your API key, eg: "us3"
 
- Create a file named '.env' and set this [enviroment variables](https://www.npmjs.com/package/dotenv):
+ Create a file named '.env' and set these [enviroment variables](https://www.npmjs.com/package/dotenv):
  > MAILCHIMP_API_KEY=  
  > MAILCHIMP_LIST_ID=  
  > MAILCHIMP_SERVER_NUMBER=  
