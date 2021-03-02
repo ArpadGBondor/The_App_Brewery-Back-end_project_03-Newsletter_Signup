@@ -1,6 +1,6 @@
 # [The App Brewery - Back-end project 03 - Newsletter Signup](https://gabriel-newsletter-signup.herokuapp.com/)
 
-## Udemy - The Complete 2020 Web Development Bootcamp
+## Udemy - [Dr. Angela Yu - The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 ### Section 20: APIs - Application Programming Interfaces
 A back-end program, that can forward the user's name and e-mail address to Mailchimp, to sign it up for your newsletter.
  - Node.js
