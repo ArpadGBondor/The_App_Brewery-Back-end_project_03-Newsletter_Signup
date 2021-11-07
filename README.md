@@ -7,7 +7,7 @@ A back-end program, that can forward the user's name and e-mail address to Mailc
  - HTML5
  - CSS3
 
-#### My Newsletter Signup page is deployed on [Heroku](https://gabriel-newsletter-signup.herokuapp.com/)
+#### My Newsletter Signup page is not deployed anymore.
 
 #### How to run: (from terminal)
  Clone the repository:
